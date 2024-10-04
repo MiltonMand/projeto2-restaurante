@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=RocknRoll+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner {
+    margin: 0 5%;
+}
+
+.conteiner#pratos p {
+    font-family: "RocknRoll One", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.none{
+    display: none;
+}
+
+.starfull {
+    color: orange;
+}
+
+.starnofull {
+    color: rgba(0, 0, 0, 0.557);
+}
+
+.pedirBtn {
+    background-color: orange;
+    border: none;
+    padding: 8px 10px;
+    width: 100%;
+    transition: .3s;
+    border-radius: 0 0 5px 5px ;
+    font-weight: bold;
+}
+
+.pedirBtn:hover {
+    background-color: rgb(161, 106, 4);
+}
+
+.star {
+    display: flex;
+    gap: 10px;
+}
+
+.descricao .p {
+    text-align: left;
+    margin: 0 10px 10px 10px;
+}
+
+.mais {
+    text-align: center;
+    margin: auto;
+    color: orange;
+    border-bottom: 1.4px solid orange;
+    font-family: initial;
+}
+
+#mais {
+    transition: .2s;
+    width: 80px;
+    margin: 10px auto;
+}
+
+#mais:hover {
+    transform: scale(1.01);
+}
+
+#divfixed {
+    padding: 2px;
+}
+
+.prato img {
+    width: 200px;
+}
+
+.fixed {
+    background: linear-gradient(to left, rgb(169, 111, 3), rgb(183, 119, 1)); 
+}

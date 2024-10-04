@@ -1,0 +1,91 @@
+header {
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+header #resname {
+    font-family: "Acme", sans-serif;
+}
+
+header .flex {
+    justify-content: space-between;
+    padding: 10px 4%;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    font-family: "Lobster", sans-serif;
+    margin: 0 15px;
+    color: #000000a4;
+    transition: .3s;
+}
+
+header nav a:hover {
+    transform: scale(1.03);
+    color: black;
+    border-bottom: 2.5px solid #150e00;
+}
+
+/* Estilos para o menu hambúrguer */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffffb9;
+    position: absolute;
+}
+
+.hamburger:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to left, #c4bbaaee, #9b8866f8);
+    padding: 50px 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.menu a {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: #04276e2f;
+    transform: scale(1.05);
+}
+
+.close {
+    display: block;
+    font-size: 50px;
+    cursor: pointer;
+    color: #ffffffcd;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+
+.close:hover {
+    transform: scale(1.05);
+    color: white;
+}

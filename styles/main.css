@@ -1,0 +1,175 @@
+.home {
+   background-color: blanchedalmond;
+   height: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.home .flex #chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.home .flex #chamada h1 {
+    margin: 20px 0;
+    font-size: 3em;
+    font-family: "Lobster", sans-serif;
+}
+
+.home .flex #chamada p {
+    margin: 0 80px 0 0;
+    font-family: "RocknRoll One", sans-serif;
+}
+
+.home .flex #chamada button {
+    margin: 20px 10px 0 0;
+    padding: 2px 15px;
+    border: 1px solid #855702d3;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family: initial;
+    background: linear-gradient(to left, orange, rgb(208, 136, 2));
+    transition: .3s;
+}
+
+.home .flex #chamada button:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 7px #b46102;
+}
+
+.home .flex #chamada button i {
+    color: rgb(6, 6, 6);
+    font-size: 1.7em;
+}
+
+
+
+
+                                           /*categorias*/
+.conteiner h2 {
+    text-align: center;
+    color: rgb(237, 156, 7);
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.conteiner p {
+    text-align: center;
+    margin: 10px;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.categorias img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.categoria {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    transition: .3s;
+}
+
+.categoria p {
+    text-align: left;
+}
+
+.categoria:hover {
+    transform: scale(1.02);
+}
+
+.categoria .star {
+    display: flex;
+    margin: 7px 0 12px 0;
+    gap: 10px;
+}
+
+#categoriaBtn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.categorias .categoria .CategoriaButton {
+    background-color: rgb(222, 146, 3);
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.47);
+    transition: .5s;
+    font-weight: bold;
+}
+
+.categorias .categoria .CategoriaButton:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+                                           /*sobre*/
+.sobre {
+    background-color: rgba(236, 154, 2, 0.393);
+    padding: 0px 3% 27px 3%;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 30px 0;
+    padding-top: 30px;
+}
+
+.sobre p {
+    margin: 20px 0;
+}
+
+.sobre .flex div {
+    margin-left: 20px;
+}
+
+
+                                           /*pratos*/
+.pratos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.pratos img {
+    width: 100%;
+    border-radius: 6px;
+    background-color: rgba(125, 125, 124, 0.347);
+}
+
+.prato {
+    background-color: #b4610215;
+    border: 2px solid orange;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.descricao > div {
+    padding: 3px 10px 10px 10px;
+}
+
+.descricao .h3 {
+    color: rgb(213, 140, 3);
+}
+
+.descricao .cash {
+    margin: 5px 0;
+}

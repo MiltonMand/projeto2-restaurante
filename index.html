@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaFood</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css"> 
+</head>
+
+<body>
+    <header id="initialPage">
+        <div id="divfixed"></div>
+        <div class="flex">
+            <a href="#initialPage" style="color: black;">
+                <h1 id="resname"><i class="bi bi-cup-hot-fill"></i>Restaurant</h1>
+            </a>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#categorias">Categoria</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#pratos">Pratos</a>
+                <a href="https://wa.me/258859124165?text=Olá%2C%20gostaria%20de%20falar%20com%20você"
+                    target="_blank">Fazer pedido</a>
+            </nav>
+        </div>
+
+        <div id="header initialPage">
+            <div id="hamburger" class="hamburger">
+                &#9776;
+            </div>
+            <div id="menu" class="menu">
+                <a href="#home">Home</a>
+                <a href="#categorias">Categoria</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#pratos">Pratos</a>
+                <a href="https://wa.me/258856240589?text=Olá%2C%20gostaria%20de%20falar%20com%20você"
+                    target="_blank">Fazer pedido</a>
+                <span id="close" class="close">&times;</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="home" id="home">
+            <div class="flex">
+                <div>
+                    <img src="assets/images/chef3-removebg-preview.png" width="450px"
+                        alt="imagem principal">
+                </div>
+                <div id="chamada">
+                    <h1>O melhor restaurante do mundo</h1>
+                    <p>
+                        Bem-vindo ao sabor, onde a paixão e a excelência se encontram. Cada prato é cuidadosamente preparado com amor e dedicação, trazendo à sua mesa o melhor da gastronomia. Acolhemos você de braços abertos para uma experiência única e inesquecível. Que cada garfada seja uma celebração do paladar, e cada momento, uma memória que você levará consigo.
+                    </p>
+                    <div style="text-align: left;">
+                        <button><i class="bi bi-whatsapp"></i>fale conosco</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteiner" id="categorias">
+            <h2>Categorias</h2>
+            <p>Escolha uma categoria especifica para facilitar a sua esperiencia na escolha de nossos pratos e tudo o
+                que podemos oferecer de melhor para voce</p>
+            <div class="categorias">
+                <div class="categoria">
+                    <img src="assets/images/pexels-ella-olsson-572949-1640777.jpg" alt="">
+                    <h2>Vegetarianas</h2>
+                    <div class="star">
+                        <h3>(750+)</h3>
+                        <div>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starnofull"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Nossos pratos vegetarianos são cuidadosamente preparados para oferecer uma explosão de sabores sem o uso de carne. Utilizamos apenas ingredientes frescos e selecionados, como legumes, grãos e vegetais, criando refeições equilibradas.
+                    </p>
+                    <div id="categoriaBtn">
+                        <a href="pages/categoria1.html"><button class="CategoriaButton">Essa Categoria</button></a>
+                    </div>
+                </div>
+                <div class="categoria">
+                    <img src="assets/images/imagem2.avif" alt="">
+                    <h2>Veganas</h2>
+                    <div class="star">
+                        <h3>(530+)</h3>
+                        <div>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starnofull"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Na nossa categoria vegana, preparamos pratos exclusivamente à base de plantas, sem qualquer produto de origem animal. Cada receita é criada para proporcionar uma experiência gastronômica rica e saborosa, utilizando ingredientes frescos e técnicas inovadoras.
+                    </p>
+                    <div id="categoriaBtn">
+                        <a href="pages/categoria2.html"><button class="CategoriaButton">Essa Categoria</button></a>
+                    </div>
+                </div>
+                <div class="categoria">
+                    <img src="assets/images/pexels-enginakyurt-2673353.jpg" alt="">
+                    <h2>Carnes Nobres</h2>
+                    <div class="star">
+                        <h3>(1300+)</h3>
+                        <div>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                            <i class="bi bi-star-fill starfull"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Nossas carnes selecionadas são preparadas com maestria, garantindo suculência e sabor em cada mordida. Utilizamos cortes nobres e técnicas de cocção que valorizam a qualidade dos ingredientes, trazendo pratos grelhados, assados ou cozidos.
+                    </p>
+                    <div id="categoriaBtn">
+                        <a href="pages/categoria3.html"><button class="CategoriaButton">Essa Categoria</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sobre" id="sobre">
+            <h2>Sobre a empresa</h2>
+            <p>
+                Desde a sua fundação, a Sabores da Terra tem sido guiada por uma paixão inabalável pela gastronomia. Nossa jornada começou com um sonho simples: trazer pratos autênticos e de alta qualidade para a mesa de cada cliente, transformando refeições em momentos especiais. Ao longo dos anos, evoluímos e crescemos, mas nossa missão permanece a mesma. Com dedicação e atenção aos detalhes, cada receita é cuidadosamente criada com ingredientes frescos e de origem sustentável, garantindo não apenas sabor, mas também respeito à natureza.
+            </p>
+
+            <div class="flex">
+                <img src="assets/images/pexels-roman-odintsov-5840316.jpg" width="300px" alt="">
+                <div>
+                    <p>
+                        Nosso objetivo sempre foi mais do que servir refeições. Queríamos criar experiências memoráveis, onde cada garfada fosse uma celebração dos sentidos. Desde o início, estabelecemos relações próximas com produtores locais, garantindo que nossos ingredientes fossem não só frescos, mas também cultivados de maneira ética e sustentável. Acreditamos que os melhores sabores vêm da terra, e é por isso que todos os nossos pratos são preparados com ingredientes da mais alta qualidade, selecionados cuidadosamente para oferecer o máximo em sabor e frescor.
+                    </p>
+                    <p>
+                        À medida que crescemos, nossa equipe também evoluiu, incorporando chefs talentosos, apaixonados pela arte de cozinhar. Cada prato no nosso cardápio é fruto de horas de dedicação, estudo e inovação. Mantemos as tradições culinárias que formam nossa base, mas também não temos medo de experimentar novas técnicas e sabores para surpreender nossos clientes. A cozinha da Sabores da Terra é um reflexo dessa fusão entre tradição e modernidade.
+                    </p>
+                    <p class="block2">
+                        Além disso, nosso compromisso com a sustentabilidade vai além do que servimos no prato. Temos iniciativas para reduzir o desperdício, utilizamos embalagens biodegradáveis e incentivamos práticas de reciclagem tanto no restaurante quanto entre nossos clientes. Sabemos que o futuro da gastronomia também depende da preservação do meio ambiente, e estamos determinados a fazer nossa parte.
+                    </p>
+                    <p class="block1">
+                        Nossa história é construída sobre a confiança e lealdade dos nossos clientes. Muitos que nos visitaram pela primeira vez há anos ainda continuam a nos prestigiar, trazendo novas gerações para conhecer o que fazemos de melhor. Para nós, cada cliente que entra no restaurante é um motivo para celebrar a nossa missão e reafirmar o compromisso de oferecer sempre o melhor.
+                        O futuro da Sabores da Terra está cheio de possibilidades. Temos planos para abrir novas unidades, levar nossos sabores a mais pessoas e continuar inovando na cozinha. Mas uma coisa nunca mudará: nossa paixão por servir bem e por criar momentos inesquecíveis. Seja em uma refeição casual, uma celebração especial ou um evento corporativo, estaremos sempre aqui, prontos para transformar uma simples refeição em uma experiência extraordinária."
+                    </p>
+                </div>
+            </div>
+            <p class="none">
+                Nossa história é construída sobre a confiança e lealdade dos nossos clientes. Muitos que nos visitaram pela primeira vez há anos ainda continuam a nos prestigiar, trazendo novas gerações para conhecer o que fazemos de melhor. Para nós, cada cliente que entra no restaurante é um motivo para celebrar a nossa missão e reafirmar o compromisso de oferecer sempre o melhor.
+                O futuro da Sabores da Terra está cheio de possibilidades. Temos planos para abrir novas unidades, levar nossos sabores a mais pessoas e continuar inovando na cozinha. Mas uma coisa nunca mudará: nossa paixão por servir bem e por criar momentos inesquecíveis. Seja em uma refeição casual, uma celebração especial ou um evento corporativo, estaremos sempre aqui, prontos para transformar uma simples refeição em uma experiência extraordinária."
+            </p>
+        </div>
+
+        <div class="conteiner" id="pratos">
+            <h2 style="margin-top: 30px; padding: 20px;">Nosso cardapío</h2>
+            <p>
+                Cada prato do nosso cardápio é preparado com ingredientes frescos e selecionados, trazendo uma combinação perfeita de sabores e texturas. Seja uma carne suculenta grelhada ou uma opção vegetariana cheia de vida, garantimos uma refeição deliciosa e memorável. Saboreie o cuidado e a paixão em cada detalhe.
+            </p>
+            <div class="pratos">
+                <div class="prato">
+                    <img src="assets/pratos/prato24-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$9.50</h3>
+                            <div class="star">
+                                <h3>(550+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+                <div class="prato">
+                    <img src="assets/pratos/prato11-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$5.50</h3>
+                            <div class="star">
+                                <h3>(300+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+                <div class="prato">
+                    <img src="assets/pratos/prato21-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$7.59</h3>
+                            <div class="star">
+                                <h3>(450+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+                <div class="prato">
+                    <img src="assets/pratos/prato26-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$6.30</h3>
+                            <div class="star">
+                                <h3>(700+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+                <div class="prato">
+                    <img src="assets/pratos/prato20-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$10.20</h3>
+                            <div class="star">
+                                <h3>(450+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+                <div class="prato">
+                    <img src="assets/pratos/prato18-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$6.70</h3>
+                            <div class="star">
+                                <h3>(375+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+                <div class="prato">
+                    <img src="assets/pratos/prato23-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$9.00</h3>
+                            <div class="star">
+                                <h3>(590+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+                
+                <div class="prato">
+                    <img src="assets/pratos/prato4-removebg-preview.png" alt="">
+                    <div class="descricao">
+                        <div>
+                            <h3 class="h3">$3.50</h3>
+                            <div class="star">
+                                <h3>(640+)</h3>
+                                <div>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starfull"></i>
+                                    <i class="bi bi-star-fill starnofull"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://wa.me/258856240589?text=Olá%2C%20tenho%20de%20um%20pedido"
+                            target="_blank"><button class="pedirBtn">Pedir</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mais"><a href="pages/pratos.html" class="mais">Mais pratos</a></div>
+    </main>
+    <footer>
+        <div>
+            <h1>Paginas</h1>
+            <nav>
+                <a href="#initialPage">Home</a>
+                <a href="#categorias">Categoria</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#pratos">Pratos</a>
+                <a href="https://wa.me/258859124165?text=Olá%2C%20gostaria%20de%20falar%20com%20você" target="_blank">Fazer
+                    pedido</a>
+            </nav>
+        </div>
+        <div>
+            <h1>Redes sociais</h1>
+            <nav>
+                <a href="">Watsapp</a>
+                <a href="">Faceboock</a>
+                <a href="">Twiter</a>
+                <a href="">Instagram</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

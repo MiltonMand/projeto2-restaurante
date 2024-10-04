@@ -1,0 +1,19 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.662);
+    padding: 10px 20px 50px 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h1 {
+    padding: 8px;
+    color: rgb(237, 156, 4);
+}
+
+footer nav a {
+    color: white;
+    display: block;
+    margin-bottom: 7px;
+    text-align: center;
+}
