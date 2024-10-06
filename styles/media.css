@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 877px) {
+@media (max-width: 920px) {
     #home img {
         display: none;
     }
@@ -27,6 +27,14 @@
 
     .block2 {
         display: none;
+    }
+
+    header #hamburger {
+        color: #222121ba;
+    }
+    
+    header #hamburger:hover {
+        color: black;
     }
 }
 
