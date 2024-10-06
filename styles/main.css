@@ -1,10 +1,16 @@
 .home {
    background: blanchedalmond;
-   height: 600px;
+   height: 99vh;
    display: flex;
    align-items: center;
    justify-content: center;
    margin-bottom: 20px;
+}
+
+.home .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home .flex #chamada {
