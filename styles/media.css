@@ -17,6 +17,18 @@
 }
 
 @media (max-width: 920px) {
+    body .home {
+        background: blanchedalmond url(../assets/images/pexels-enginakyurt-2673353.jpg) no-repeat center center/cover;
+    }
+
+    body .home h1 {
+        color: rgb(235, 164, 31);
+    }
+
+    body .home p {
+        color: white;
+    }
+
     #home img {
         display: none;
     }
@@ -32,7 +44,7 @@
     header #hamburger {
         color: #222121ba;
     }
-    
+
     header #hamburger:hover {
         color: black;
     }
@@ -46,9 +58,9 @@
 
 @media (max-width: 740px) {
     header {
-        background: linear-gradient(to left, rgb(169, 111, 3), rgb(183, 119, 1)); 
+        background: linear-gradient(to left, rgb(169, 111, 3), rgb(183, 119, 1));
     }
-    
+
     header nav {
         display: none;
     }
@@ -56,6 +68,7 @@
     #categorias .categorias {
         grid-template-columns: 1fr;
     }
+
 
     .sobre .flex img {
         display: none;
@@ -75,7 +88,7 @@
 @media (max-width: 500px) {
     #pratos .pratos {
         grid-template-columns: 1fr;
-    } 
+    }
 }
 
 @media (max-width: 400px) {
@@ -85,5 +98,5 @@
 
     .home #chamada p {
         margin: 0 2px 0 0;
-    }    
+    }
 }
